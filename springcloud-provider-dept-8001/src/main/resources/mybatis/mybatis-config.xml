@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--configuration核心配置文件-->
+<configuration>
+    <!-- 配置全局性 cache 的 ( 开 / 关) default:true -->
+    <!--开启缓存-->
+    <settings>
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+</configuration>
